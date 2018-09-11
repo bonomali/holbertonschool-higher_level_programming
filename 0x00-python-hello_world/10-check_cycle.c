@@ -16,7 +16,8 @@ int check_cycle(listint_t *list)
 	node1 = list;
 	node2 = node1->next;
 
-	while (node2->next != NULL && node1 != NULL)
+	while (node2->next != NULL && node1 != NULL
+	       && node2->next->next != NULL)
 	{
 		if (node1 == node2)
 			return (1);
