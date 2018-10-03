@@ -34,7 +34,7 @@ class Square:
             for i in range(b):
                 print()
             for j in range(self.__size):
-                print(" " * a, end="")
+                print (" " * a, end="")
                 print ("#" * self.__size)
 
     @property
