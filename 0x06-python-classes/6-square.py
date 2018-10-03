@@ -14,8 +14,8 @@ class Square:
         size (int): The size of the square
         position (tuple): the coordinates for the position of the square
         """
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
     def area(self):
         """ Calculates the current area of the square
@@ -23,6 +23,19 @@ class Square:
         The area of the square
         """
         return (self.__size ** 2)
+
+    def my_print(self):
+        """prints the square in #'s to stdout
+        """
+        if self.__size is 0:
+            print()
+        else:
+            a, b = self.__position
+            for i in range(b):
+                print()
+            for j in range(self.__size):
+                print(" " * a, end="")
+                print ("#" * self.__size)
 
     @property
     def size(self):
@@ -58,22 +71,12 @@ class Square:
         Args:
         value (int): the new position
         """
-        if type(value) is not tuple or len(value) is not 2:
+        if type(value) is not tuple or len(value) != 2:
             raise TypeError("position must be a tuple of 2 positive integers")
         a, b = value
-        if type(a) is not int or a < 0 or type(b) is not int or b < 0:
+        if type(a) is not int or type(b) is not int :
             raise TypeError("position must be a tuple of 2 positive integers")
-        self.__position = value
-
-    def my_print(self):
-        """prints the square in #'s to stdout
-        """
-        a, b = self.position
-        if self.size is 0:
-            print()
+        if a < 0 or b < 0:
+            raise TypeError("position must be a tuple of 2 positive integers")
         else:
-            for i in range(b):
-                print()
-            for j in range(self.size):
-                print(" " * a, end="")
-                print ("#" * self.size)
+            self.__position = value
