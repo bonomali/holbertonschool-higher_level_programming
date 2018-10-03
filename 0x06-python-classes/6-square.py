@@ -22,7 +22,7 @@ class Square:
         Returns:
         The area of the square
         """
-        return (self.__size ** 2)
+        return self.__size ** 2
 
     def my_print(self):
         """prints the square in #'s to stdout
