@@ -8,9 +8,12 @@ def text_indentation(text):
     if type(text) is not str:
         raise TypeError("text must be a string")
 
-    for lett in range(len(text)):
+    lett = 0
+    while lett < len(text):
         if text[lett] is "." or text[lett] is "?" or text[lett] is ":":
-            print(text[lett])
-            lett += 2
-            print()
-        print(text[lett])
+            print(text[lett] + "\n")
+            lett += 1
+            while text[lett] is " ":
+                lett += 1
+        print(text[lett], end="")
+        lett += 1
