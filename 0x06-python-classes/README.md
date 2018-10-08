@@ -1,4 +1,4 @@
-# 0x07. Python - Test-driven Development
+# 0x06. Python - Classes and Objects
 ---
 ## Description
 
