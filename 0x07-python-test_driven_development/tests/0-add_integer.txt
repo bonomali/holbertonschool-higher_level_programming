@@ -18,11 +18,11 @@ Error Output
 >>> add_integer("a", 2)
 Traceback (most recent call last):
 ...
-TypeError: a must be an int
+TypeError: a must be an integer
 >>> add_integer(1, "b")
 Traceback (most recent call last):
 ...
-TypeError: b must be an int
+TypeError: b must be an integer
 >>> add_integer(1, b)
 Traceback (most recent call last):
 ...
@@ -42,8 +42,8 @@ NameError: name 'a' is not defined
 >>> add_integer("a", "b")
 Traceback (most recent call last):
 ...
-TypeError: a must be an int
+TypeError: a must be an integer
 >>> add_integer("a")
 Traceback (most recent call last):
 ...
-TypeError: a must be an int
+TypeError: a must be an integer
