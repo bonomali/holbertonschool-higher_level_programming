@@ -36,4 +36,4 @@ class Student:
         Args:
         json: the dictionary
         """
-        
+        self.__dict__ = json
