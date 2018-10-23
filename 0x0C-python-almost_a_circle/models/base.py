@@ -63,8 +63,9 @@ class Base:
         list_obj (list): a list of instances who inherits Base
         """
         string = []
-        if list_objs is None or len(list_objs) == 0:
-            string = []
+        if list_objs is None:
+            string = "[]"
+            file.write(string)
         else:
             for i in list_objs:
                 string.append(cls.to_dictionary(i))
