@@ -61,6 +61,7 @@ class Rectangle(Base):
             i = 0
             for arg in args:
                 setattr(self, attr[i], arg)
+                i += 1
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
