@@ -119,6 +119,3 @@ class TestBaseClass(unittest.TestCase):
         Rectangle.save_to_file(result)
         list = Rectangle.load_from_file()
         self.assertNotEqual(result, list)
-
-if __name__ == '__main__':
-    unittest.main()
