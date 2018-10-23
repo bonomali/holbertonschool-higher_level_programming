@@ -18,9 +18,14 @@ class TestRectangleClass(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """Set up class"""
-        Rectangle._Rectangle__nb_objects = 0
+        Base._Base__nb_objects = 0
         cls.r1 = Rectangle(1, 2)
         cls.r2 = Rectangle(2, 3, 1, 1, id=5)
+
+    # @classmethod
+    # def tearDownClass(cls):
+    #     """Tear down class"""
+    #     cls._Base__nb_objects = 0
 
     def test_style(self):
         """Tests PEP8 style"""
