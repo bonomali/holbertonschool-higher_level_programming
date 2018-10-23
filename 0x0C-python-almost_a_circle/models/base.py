@@ -63,7 +63,7 @@ class Base:
         list_obj (list): a list of instances who inherits Base
         """
         string = []
-        if list_objs is None:
+        if list_objs is None or len(list_objs) == 0:
             string = []
         else:
             for i in list_objs:
