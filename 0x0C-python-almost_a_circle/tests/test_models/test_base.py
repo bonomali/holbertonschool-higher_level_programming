@@ -1,11 +1,16 @@
 #!/usr/bin/python3
 """Unittest for Base class
 """
-import unittest, pep8, json, os, sys
+import unittest
+import pep8
+import json
+import os
+import sys
 from io import StringIO
 from models.base import Base
 from models.rectangle import Rectangle
 from models.square import Square
+
 
 class TestBaseClass(unittest.TestCase):
     """Test for base class"""
@@ -83,7 +88,8 @@ class TestBaseClass(unittest.TestCase):
 
     def test_save_to_file(self):
         """Test save_to_file function"""
-        result = [{"y": 1, "x": 1, "id": 6, "width": 1, "height": 2}, {"y": 0, "x": 0, "id": 7, "width": 2, "height": 3}]
+        result = [{"y": 1, "x": 1, "id": 6, "width": 1, "height": 2},
+                  {"y": 0, "x": 0, "id": 7, "width": 2, "height": 3}]
         Rectangle.save_to_file([self.rectangle1, self.rectangle2])
         self.assertTrue(os.path.isfile("Rectangle.json"))
         with open("Rectangle.json", "r") as file:
@@ -91,10 +97,8 @@ class TestBaseClass(unittest.TestCase):
 
     def test_from_json_string(self):
         """Test from_json_string function"""
-        list = [
-        {'id': 89, 'width': 10, 'height': 4},
-        {'id': 7, 'width': 1, 'height': 7}
-        ]
+        list = [{'id': 89, 'width': 10, 'height': 4},
+                {'id': 7, 'width': 1, 'height': 7}]
         test = Rectangle.to_json_string(list)
         self.assertEqual(Base.from_json_string(None), [])
         self.assertEqual(Base.from_json_string(""), [])
