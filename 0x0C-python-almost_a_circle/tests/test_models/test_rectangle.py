@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 """Unittest for Rectangle class
 """
-import unittest
+import unittest, pep8, json, os, sys
+from io import StringIO
 from models.rectangle import Rectangle
+from models.square import Square
+from models.base import Base
 
 class TestRectangleClass(unittest.TestCase):
     """Test for rectangle class"""
