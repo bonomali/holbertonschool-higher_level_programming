@@ -64,7 +64,7 @@ class Base:
         """
         string = []
         if list_objs is None:
-            string = "[]"
+            string = []
         else:
             for i in list_objs:
                 string.append(cls.to_dictionary(i))
