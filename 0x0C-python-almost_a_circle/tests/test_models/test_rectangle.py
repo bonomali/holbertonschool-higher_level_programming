@@ -23,71 +23,71 @@ class TestRectangleClass(unittest.TestCase):
 
     def test_style(self):
         """Tests PEP8 style"""
-        fill
+        pass
 
     def test_docs(self):
         """Is everything documented?"""
-        fill
+        pass
 
     def test_basic(self):
         """Test basic functionality of class"""
-        fill
+        pass
 
     def test_init(self):
         """Test if it initializes correctly"""
-        fill
+        pass
 
     def test_area(self):
         """Test area function"""
-        fill
+        pass
 
     def test_display(self):
         """Test display function"""
-        fill
+        pass
 
     def test_str(self):
         """Test __str__ overwrite"""
-        fill
+        pass
 
     def test_update(self):
         """Test update function"""
-        fill
+        pass
 
     def test_to_dictionary(self):
         """Test to_dictionary funciton"""
-        fill
+        pass
 
     def test_width(self):
         """Test width getter"""
-        fill
+        pass
 
     def test_height(self):
         """Test height getter"""
-        fill
+        pass
 
     def test_x(self):
         """test x getter"""
-        fill
+        pass
 
     def test_y(self):
         """Test y getter"""
-        fill
+        pass
 
     def test_set_width(self):
         """Test width setter"""
-        fill
+        pass
 
     def test_set_height(self):
         """Test height setter"""
-        fill
+        pass
 
     def test_set_x(self):
         """Test x setter"""
-        fill
+        pass
 
     def test_set_y(self):
         """Test y setter"""
-        fill
+        pass
 
 if __name__ == '__main__':
     unittest.main()

@@ -23,39 +23,39 @@ class TestSquareClass(unittest.TestCase):
 
     def test_style(self):
         """Tests PEP8 style"""
-        fill
+        pass
 
     def test_docs(self):
         """Is everything documented?"""
-        fill
+        pass
 
     def test_basic(self):
         """Test basic functionality of class"""
-        fill
+        pass
 
     def test_init(self):
         """Test if it initializes correctly"""
-        fill
+        pass
 
     def test_str(self):
         """Test __str__ overwrite"""
-        fill
+        pass
 
     def test_update(self):
         """Test update function"""
-        fill
+        pass
 
     def test_to_dictionary(self):
         """Test to_dictionary funciton"""
-        fill
+        pass
 
     def test_size(self):
         """Test size getter"""
-        fill
+        pass
 
     def test_size(self):
         """Test size setter"""
-        fill
+        pass
 
 if __name__ == '__main__':
     unittest.main()
