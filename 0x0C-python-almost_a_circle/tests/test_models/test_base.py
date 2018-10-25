@@ -34,7 +34,6 @@ class TestBaseClass(unittest.TestCase):
         del cls.base2
         del cls.base3
         del cls.base4
-        # cls._Base__nb_objects = 0
 
     def test_style(self):
         """Tests PEP8 style"""

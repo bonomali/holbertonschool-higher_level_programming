@@ -22,11 +22,6 @@ class TestSquareClass(unittest.TestCase):
         cls.s1 = Square(2)
         cls.s2 = Square(5, 1, 1, id=5)
 
-    # @classmethod
-    # def tearDownClass(cls):
-    #     """Tear down class"""
-    #     cls._Base__nb_objects = 0
-
     def test_style(self):
         """Tests PEP8 style"""
         pep = pep8.StyleGuide(quiet=True)
