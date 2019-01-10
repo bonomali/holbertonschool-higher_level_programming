@@ -3,8 +3,8 @@
 ## Description
 
 During this project I will learn:
-- What is a superclass, `baseclass` or `parentclass`
-- What is a subclass
+- What is a `superclass`, `baseclass` or `parentclass`
+- What is a `subclass`
 - How to list all attributes and methods of a class or instance
 - When can an instance have new attributes
 - How to inherit class from another
@@ -23,7 +23,7 @@ During this project I will learn:
 - All your files should end with a new line
 - The first line of all your files should be exactly `#!/usr/bin/python3`
 - A `README.md` file, at the root of the folder of the project, is mandatory
-- Code should use the `PEP 8` style (version 1.7.*)
+- Code should use the `PEP 8` style `(version 1.7.*)`
 - All files must be executable
 - All your modules should have documentation (`python3 -c 'print(__import__("my_module").__doc__)’`)
 - All your classes should have documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)’`)
@@ -56,4 +56,4 @@ File|Task
 11-square.py | a class Square that inherits from Rectangle (`9-rectangle.py`) where `print()` and `str()` should print a description of the square
 
 ## Author
-Essence Boayue
+Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)

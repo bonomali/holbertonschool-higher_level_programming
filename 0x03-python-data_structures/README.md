@@ -22,7 +22,7 @@ During this project I will learn:
 - All your files should end with a new line
 - The first line of all your files should be exactly `#!/usr/bin/python3`
 - A `README.md` file, at the root of the folder of the project, is mandatory
-- Code should use the `PEP 8` style (version 1.7.*)
+- Code should use the `PEP 8` style `(version 1.7.*)`
 - All files must be executable
 
 ## Requirements for C
@@ -43,9 +43,9 @@ File|Task
 ---|---
 0-print_list_integer.py| a function that prints all integers of a list.
 1-element_at.py| a function that retrieves an element from a list like in C
-2-replace_in_list.py | a function that replaces an element of a list at a specific position 
+2-replace_in_list.py | a function that replaces an element of a list at a specific position
 3-print_reversed_list_integer.py | a function that prints all integers of a list, in reverse order.
-4-new_in_list.py | a function that replaces an element in a list at a specific position without modifying the original list 
+4-new_in_list.py | a function that replaces an element in a list at a specific position without modifying the original list
 5-no_c.py | a function that removes all characters c and C from a string
  6-print_matrix_integer.py | a function that prints a matrix of integers.
 7-add_tuple.py | a function that adds 2 tuples
@@ -57,4 +57,4 @@ File|Task
  13-is_palindrome.c | a function in C that checks if a singly linked list is a palindrome
 
 ## Author
-Essence Boayue
+Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)

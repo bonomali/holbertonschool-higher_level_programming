@@ -45,4 +45,4 @@ File|Task
 9-rectangle.py | A class `Rectangle` that defines a rectangle with the previous attributes and also class method square that returns a new rectangle with width==height==size
 
 ## Author
-Essence Boayue
+Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)

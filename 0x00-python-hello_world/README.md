@@ -43,4 +43,4 @@ File|Task
 10-check_cycle.c | A function in C that checks if a singly linked list has a cycle in it
 
 ## Author
-Essence Boayue
+Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)

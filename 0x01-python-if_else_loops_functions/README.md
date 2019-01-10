@@ -39,7 +39,7 @@ During this project I will learn:
 - All files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 - All files should end with a new line
 - A README.md file, at the root of the folder of the project, is mandatory
-- Code should use the PEP 8 style (version 1.7.*)
+- Code should use the PEP 8 style `(version 1.7.*)`
 
 
 ---
@@ -61,4 +61,4 @@ File|Task
 13-insert_number.c | Write a function in C that inserts a number into a sorted singly linked list.
 
 ## Author
-Essence Boayue
+Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)

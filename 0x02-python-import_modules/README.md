@@ -16,7 +16,7 @@ During this project I will learn:
 - All files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 - All files should end with a new line
 - A README.md file, at the root of the folder of the project, is mandatory
-- Code should use the PEP 8 style (version 1.7.*)
+- Code should use the PEP 8 style `(version 1.7.*)`
 - Additional requirements may be added for each task
 
 ---
@@ -30,4 +30,4 @@ File|Task
 5-variable_load.py |  a program that imports the variable a from the file variable_load_5.pyand prints its value
 
 ## Author
-Essence Boayue
+Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)
