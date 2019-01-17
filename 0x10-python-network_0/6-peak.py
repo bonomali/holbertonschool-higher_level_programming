@@ -6,9 +6,9 @@ def find_peak(list_of_integers):
     Returns:
         the integer that is the peak
     """
-    if list_of_integers is None:
+    if len(list_of_integers) is 0:
         return None
     elif len(list_of_integers) is 1:
         return list_of_integers[0]
-    else
+    else:
         return max(list_of_integers)
