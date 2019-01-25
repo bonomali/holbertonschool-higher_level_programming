@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     try:
         rjson = req.json()
-        if json:
+        if rjson:
             print("[{}] {}".format(rjson["id"], rjson["name"]))
         else:
             print("No result")
