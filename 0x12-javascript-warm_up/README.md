@@ -1,47 +1,54 @@
-# 0x11. Python - Network 1
+# 0x12. Javascript Warmup
 ---
 ## Description
 
 During this project I will learn:
-- How to fetch internet resources with the Python package `urllib`
-- How to decode `urllib` body response
-- How to use the Python package requests
-- How to make HTTP `GET` request
-- How to make HTTP `POST`/`PUT`/etc. request
-- How to fetch JSON resources
-- How to manipulate data from an external service
+- Why Javascript programming is amazing
+- How to run a Javascript script
+- How to create variables and constants
+- What are differences between `var`, `const` and `let`
+- What are all the data types available in Javascript
+- How to use the `if`, `if ... else` statements
+- How to use comments
+- How to affect values to variables
+- How to use `while` and `for` loops
+- How to use `break` and `continue` statements
+- What is a function and how do you use functions
+- What does a function that does not use any `return` statement return
+- Scope of variables
+- What are the arithmetic operators and how to use them
+- How to manipulate dictionary
+- How to import a file
 
 
 
 ## Requirements
 
 - Allowed editors: `vi`, `vim`, `emacs`
-- All files will be interpreted/compiled on Ubuntu 14.04 LTS using `python3` (version 3.4.3)
+- All files will be interpreted on Ubuntu 14.04 LTS using `node` (version 6.10.2)
 - All files should end with a new line
-- The first line of all files should be exactly `#!/usr/bin/python3`
+- The first line of all files should be exactly `#!/usr/bin/node`
 - A `README.md` file, at the root of the folder of the project, is mandatory
-- Code should use the `PEP 8` style (`version 1.7.*`)
+- Code should be `semistandard` compliant (version 11.0.0)
 - All files must be executable
-- The length of files will be tested using `wc`
-- All modules should have documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
-- Must use `get` to access to dictionary value by key (it won’t throw an exception if the key doesn’t exist in the dictionary)
-- code should not be executed when imported (by using `if __name__ == "__main__":`)
 
 ---
 File|Task
 ---|---
-0-hbtn_status.py| a Python script that fetches https://intranet.hbtn.io/status
-1-hbtn_header.py | a Python script that takes in a URL, sends a request to the URL and displays the value of the X-Request-Id variable found in the header of the response
-2-post_email.py | a Python script that takes in a URL and an email, sends a POST request to the passed URL with the email as a parameter, and displays the body of the response (decoded in utf-8)
-3-error_code.py | a Python script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8)
-4-hbtn_status.py | a Python script that fetches https://intranet.hbtn.io/status
-5-hbtn_header.py | a Python script that takes in a URL, sends a request to the URL and displays the value of the variable X-Request-Id in the response header
-6-post_email.py | a Python script that takes in a URL and an email address, sends a POST request to the passed URL with the email as a parameter, and finally displays the body of the response
-7-error_code.py | a Python script that takes in a URL, sends a request to the URL and displays the body of the response
-8-json_api.py | a Python script that takes in a letter and sends a POST request to http://0.0.0.0:5000/search_user with the letter as a parameter.
-9-starwars.py | a Python script that takes in a string and sends a search request to the Star Wars API
-10-my_github.py | a Python script that takes your Github credentials (username and password) and uses the Github API to display your id
-
+0-javascript_is_amazing.js| a script that prints “Javascript is amazing”
+1-multi_languages.js | a script that prints 3 lines
+2-arguments.js | a script that prints a message depending of the number of arguments passed
+3-value_argument.js | a script that prints the first argument passed to it
+4-concat.js | a script that prints two arguments passed to it, in the following format: “ is ”
+5-to_integer.js | a script that prints My number: <first argument converted in integer> if the first argument can be converted to an integer
+6-multi_languages_loop.js | a script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop
+7-multi_c.js | a script that prints x times “C is fun”
+8-square.js | a script that prints a square
+9-add.js | a script that prints the addition of 2 integers
+10-factorial.js | a script that computes and prints a factorial
+11-second_biggest.js | a script that searches the second biggest integer in the list of arguments
+12-object.js | Update this script to replace the value 12 with 89
+13-add.js | a function that returns the addition of 2 integers
 
 ## Author
 Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)
