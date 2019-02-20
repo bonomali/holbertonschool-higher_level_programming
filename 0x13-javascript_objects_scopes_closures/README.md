@@ -21,7 +21,7 @@ During this project I will learn:
 - A `README.md` file, at the root of the folder of the project, is mandatory
 - Code should be `semistandard` compliant (version 11.0.0)
 - All files must be executable
-- Not allowed to use var
+- Not allowed to use `var`
 
 ---
 File|Task
